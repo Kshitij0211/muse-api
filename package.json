@@ -1,0 +1,29 @@
+{
+  "name": "muse-api",
+  "version": "1.0.0",
+  "description": "Muse Social Media API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kshitij0211/muse-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kshitij0211/muse-api/issues"
+  },
+  "homepage": "https://github.com/Kshitij0211/muse-api#readme",
+  "dependencies": {
+    "bcrpyt": "^2.0.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
